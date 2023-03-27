@@ -1,0 +1,93 @@
+/* Global styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid black;
+    padding: 20px;
+    font-weight: 600;
+}
+
+/* Calculando las columnas Regla de 3: n*100/12 */
+
+.col-12 {
+    width: 100%;
+    background: aqua ;
+}
+
+.col-11 {
+    width: 91.66666667%;
+    background: rgb(255, 157, 0);
+}
+
+.col-10 {
+    width: 83.33333333%;
+    background: rgb(255, 157, 0);
+}
+
+.col-9 {
+    width: 75%;
+    background: rgb(255, 255, 0);
+}
+
+.col-8 {
+    width: 66.66666667%;
+    background: rgb(0, 247, 255);
+}
+
+.col-7 {
+    width: 58.33333333%;
+    background: rgb(0, 255, 34);
+}
+
+.col-6 {
+    width: 50%;
+    background: rgb(17, 0, 255) ;
+}
+
+.col-5 {
+    width: 41.66666667%;
+    background: rgb(255, 0, 212);
+}
+
+.col-4 {
+    width: 33.33333333%;
+    background: rgb(217, 0, 255) ;
+}
+
+.col-3 {
+    width: 25%;
+    background: rgb(255, 0, 68);
+}
+
+.col-2 {
+    width: 16.66666667%;
+    background: rgb(140, 0, 255);
+}
+
+.col-1 {
+    width: 8.33333333%;
+    background: rgb(0, 255, 195);
+}
